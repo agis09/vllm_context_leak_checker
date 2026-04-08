@@ -5,14 +5,14 @@ A tool for reproducing and automatically detecting cross-user context contaminat
 ## Setup
 
 ```bash
-cd debug_tools
+cd vllm_context_leak_checker
 uv add openai
 ```
 
 ## Basic Usage
 
 ```bash
-cd debug_tools
+cd vllm_context_leak_checker
 PYTHONUNBUFFERED=1 .venv/bin/python main.py \
     --base-url http://localhost:8000/v1 \
     --model moonshotai/Kimi-K2.5 \
