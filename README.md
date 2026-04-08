@@ -6,7 +6,7 @@ A tool for reproducing and automatically detecting cross-user context contaminat
 
 ```bash
 cd vllm_context_leak_checker
-uv add openai
+uv sync
 ```
 
 ## Basic Usage

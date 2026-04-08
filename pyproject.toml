@@ -1,5 +1,5 @@
 [project]
-name = "debug-tools"
+name = "vllm-context-leak-checker"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.10, <3.14"
